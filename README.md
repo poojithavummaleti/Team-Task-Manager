@@ -12,7 +12,7 @@ This is a Team Task Manager web application built using HTML, CSS, and JavaScrip
 - Data persistence using localStorage
 
 ## Live Demo
-(Add your live URL here)
+https://team-task-manager-mu-one.vercel.app/
 
 ## 💻 GitHub Repository
 https://github.com/poojithavummaleti/team-task-manager
