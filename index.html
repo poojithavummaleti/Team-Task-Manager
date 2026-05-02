@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team Task Manager</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>👥 Team Task Manager</h2>
+
+<!-- Login -->
+<div id="loginDiv">
+  <input type="text" id="username" placeholder="Enter username">
+  <button onclick="login()">Login</button>
+</div>
+
+<!-- App -->
+<div id="app" style="display:none;">
+  <h3>Welcome, <span id="user"></span></h3>
+  <p>Role: <span id="role"></span></p>
+
+  <input type="text" id="taskInput" placeholder="Task name">
+  <input type="text" id="assignedTo" placeholder="Assign to">
+
+  <select id="status">
+    <option>Pending</option>
+    <option>In Progress</option>
+    <option>Completed</option>
+  </select>
+
+  <button onclick="addTask()">Add Task</button>
+
+  <h3>📊 Dashboard</h3>
+  <p>Total: <span id="total"></span></p>
+  <p>Completed: <span id="completed"></span></p>
+  <p>Pending: <span id="pending"></span></p>
+
+  <ul id="taskList"></ul>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
